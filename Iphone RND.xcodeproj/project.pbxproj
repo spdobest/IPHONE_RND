@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350B71FF1F467E53002A77C5 /* splash_bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350B71FE1F467E53002A77C5 /* splash_bg.jpeg */; };
 		355F808C1F39385E0008AA99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F808B1F39385E0008AA99 /* AppDelegate.swift */; };
 		355F808E1F39385E0008AA99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F808D1F39385E0008AA99 /* ViewController.swift */; };
 		355F80911F39385E0008AA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355F808F1F39385E0008AA99 /* Main.storyboard */; };
 		355F80931F39385E0008AA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355F80921F39385E0008AA99 /* Assets.xcassets */; };
 		355F80961F39385E0008AA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355F80941F39385E0008AA99 /* LaunchScreen.storyboard */; };
+		355F80A11F393A2E0008AA99 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A01F393A2E0008AA99 /* BaseViewController.swift */; };
+		355F80A41F393A850008AA99 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A31F393A850008AA99 /* ProgressHUD.swift */; };
+		355F80A81F393AFA0008AA99 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A71F393AFA0008AA99 /* CommonUtility.swift */; };
+		35CAC4341F4B296D0058F252 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAC4331F4B296D0058F252 /* MyTableViewController.swift */; };
+		35CAC4361F4B29DF0058F252 /* HappyHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAC4351F4B29DF0058F252 /* HappyHour.swift */; };
+		35DB89231F4B009B0059A6C8 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB89221F4B009B0059A6C8 /* CommonUtils.swift */; };
+		35DB89261F4B0F330059A6C8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB89251F4B0F330059A6C8 /* ImageViewController.swift */; };
+		35E461701F4B5D91008DB3E4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E4616F1F4B5D91008DB3E4 /* DetailsViewController.swift */; };
+		927E0E2B2E12BD5A22286846 /* Pods_Iphone_RND.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 739D378A4C0C93DCCF3989A8 /* Pods_Iphone_RND.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12E01FF484D493C12EF3083C /* Pods-Iphone RND.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iphone RND.release.xcconfig"; path = "Pods/Target Support Files/Pods-Iphone RND/Pods-Iphone RND.release.xcconfig"; sourceTree = "<group>"; };
+		350B71FE1F467E53002A77C5 /* splash_bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash_bg.jpeg; sourceTree = "<group>"; };
 		355F80881F39385E0008AA99 /* Iphone RND.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iphone RND.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		355F808B1F39385E0008AA99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		355F808D1F39385E0008AA99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,16 @@
 		355F80921F39385E0008AA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		355F80951F39385E0008AA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		355F80971F39385E0008AA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355F80A01F393A2E0008AA99 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		355F80A31F393A850008AA99 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		355F80A71F393AFA0008AA99 /* CommonUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonUtility.swift; path = ../CommonUtility.swift; sourceTree = "<group>"; };
+		35CAC4331F4B296D0058F252 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		35CAC4351F4B29DF0058F252 /* HappyHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyHour.swift; sourceTree = "<group>"; };
+		35DB89221F4B009B0059A6C8 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		35DB89251F4B0F330059A6C8 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		35E4616F1F4B5D91008DB3E4 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		739D378A4C0C93DCCF3989A8 /* Pods_Iphone_RND.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Iphone_RND.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65783B4565503D75E049BD0 /* Pods-Iphone RND.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iphone RND.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Iphone RND/Pods-Iphone RND.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927E0E2B2E12BD5A22286846 /* Pods_Iphone_RND.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				355F808A1F39385E0008AA99 /* Iphone RND */,
 				355F80891F39385E0008AA99 /* Products */,
+				D34044E242835B0BEB1F33D2 /* Pods */,
+				B00AB814224A32E7CB0B8958 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,72 @@
 		355F808A1F39385E0008AA99 /* Iphone RND */ = {
 			isa = PBXGroup;
 			children = (
+				35DB89241F4B0F170059A6C8 /* ui */,
+				35DB89211F4B00660059A6C8 /* utility */,
+				355F809D1F39392C0008AA99 /* base */,
 				355F808B1F39385E0008AA99 /* AppDelegate.swift */,
 				355F808D1F39385E0008AA99 /* ViewController.swift */,
 				355F808F1F39385E0008AA99 /* Main.storyboard */,
 				355F80921F39385E0008AA99 /* Assets.xcassets */,
+				350B71FE1F467E53002A77C5 /* splash_bg.jpeg */,
 				355F80941F39385E0008AA99 /* LaunchScreen.storyboard */,
 				355F80971F39385E0008AA99 /* Info.plist */,
 			);
 			path = "Iphone RND";
+			sourceTree = "<group>";
+		};
+		355F809D1F39392C0008AA99 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				355F80A01F393A2E0008AA99 /* BaseViewController.swift */,
+				355F80A21F393A420008AA99 /* utility */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		355F80A21F393A420008AA99 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				355F80A71F393AFA0008AA99 /* CommonUtility.swift */,
+				355F80A31F393A850008AA99 /* ProgressHUD.swift */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		35DB89211F4B00660059A6C8 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				35DB89221F4B009B0059A6C8 /* CommonUtils.swift */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		35DB89241F4B0F170059A6C8 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				35E4616F1F4B5D91008DB3E4 /* DetailsViewController.swift */,
+				35DB89251F4B0F330059A6C8 /* ImageViewController.swift */,
+				35CAC4331F4B296D0058F252 /* MyTableViewController.swift */,
+				35CAC4351F4B29DF0058F252 /* HappyHour.swift */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		B00AB814224A32E7CB0B8958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				739D378A4C0C93DCCF3989A8 /* Pods_Iphone_RND.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34044E242835B0BEB1F33D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D65783B4565503D75E049BD0 /* Pods-Iphone RND.debug.xcconfig */,
+				12E01FF484D493C12EF3083C /* Pods-Iphone RND.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 355F809A1F39385E0008AA99 /* Build configuration list for PBXNativeTarget "Iphone RND" */;
 			buildPhases = (
+				B8021648AB5D35ADB8950058 /* [CP] Check Pods Manifest.lock */,
 				355F80841F39385E0008AA99 /* Sources */,
 				355F80851F39385E0008AA99 /* Frameworks */,
 				355F80861F39385E0008AA99 /* Resources */,
+				ED08DC2EDF30940410CF6495 /* [CP] Embed Pods Frameworks */,
+				7FF730A5EC179F87EE24CD54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				355F80961F39385E0008AA99 /* LaunchScreen.storyboard in Resources */,
+				350B71FF1F467E53002A77C5 /* splash_bg.jpeg in Resources */,
 				355F80931F39385E0008AA99 /* Assets.xcassets in Resources */,
 				355F80911F39385E0008AA99 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +218,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FF730A5EC179F87EE24CD54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Iphone RND/Pods-Iphone RND-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8021648AB5D35ADB8950058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED08DC2EDF30940410CF6495 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Iphone RND/Pods-Iphone RND-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		355F80841F39385E0008AA99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CAC4361F4B29DF0058F252 /* HappyHour.swift in Sources */,
 				355F808E1F39385E0008AA99 /* ViewController.swift in Sources */,
+				355F80A81F393AFA0008AA99 /* CommonUtility.swift in Sources */,
 				355F808C1F39385E0008AA99 /* AppDelegate.swift in Sources */,
+				35CAC4341F4B296D0058F252 /* MyTableViewController.swift in Sources */,
+				35DB89261F4B0F330059A6C8 /* ImageViewController.swift in Sources */,
+				355F80A41F393A850008AA99 /* ProgressHUD.swift in Sources */,
+				35DB89231F4B009B0059A6C8 /* CommonUtils.swift in Sources */,
+				355F80A11F393A2E0008AA99 /* BaseViewController.swift in Sources */,
+				35E461701F4B5D91008DB3E4 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +399,7 @@
 		};
 		355F809B1F39385E0008AA99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65783B4565503D75E049BD0 /* Pods-Iphone RND.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Iphone RND/Info.plist";
@@ -268,6 +412,7 @@
 		};
 		355F809C1F39385E0008AA99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E01FF484D493C12EF3083C /* Pods-Iphone RND.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Iphone RND/Info.plist";
@@ -297,6 +442,7 @@
 				355F809C1F39385E0008AA99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
