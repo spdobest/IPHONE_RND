@@ -26,9 +26,12 @@ class CustomTableViewController : BaseViewController,UITableViewDelegate,UITable
     {
 
         
-        let cellTable = tableView.dequeueReusableCell( withIdentifier: "cell", for: indexPath ) as! MyTableViewCell
+        let cellTable = tableView.dequeueReusableCell( withIdentifier: "cell", for: indexPath ) as!MyTableViewCell
 
-        cellTable.textTitle.text = "Sibaprasad Mohanty"
+       // cellTable.textTitle.text = "Sibaprasad Mohanty"
+        
+       // cellTable.title.text = "Sibaprasad Mohanty"// list[indexPath.row]
+        
         
         return (cellTable)
     }

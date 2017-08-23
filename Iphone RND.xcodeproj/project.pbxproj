@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3508CD171F4DFE45002C7C8E /* AnimalListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508CD161F4DFE45002C7C8E /* AnimalListVC.swift */; };
+		3508CD191F4DFFAD002C7C8E /* TableViewCellAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508CD181F4DFFAD002C7C8E /* TableViewCellAnimal.swift */; };
+		3508CD1B1F4E09AB002C7C8E /* AnimalDetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508CD1A1F4E09AB002C7C8E /* AnimalDetailsVc.swift */; };
 		350B71FF1F467E53002A77C5 /* splash_bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 350B71FE1F467E53002A77C5 /* splash_bg.jpeg */; };
 		355F808C1F39385E0008AA99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F808B1F39385E0008AA99 /* AppDelegate.swift */; };
 		355F808E1F39385E0008AA99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F808D1F39385E0008AA99 /* ViewController.swift */; };
@@ -16,7 +19,6 @@
 		355F80A11F393A2E0008AA99 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A01F393A2E0008AA99 /* BaseViewController.swift */; };
 		355F80A41F393A850008AA99 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A31F393A850008AA99 /* ProgressHUD.swift */; };
 		355F80A81F393AFA0008AA99 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A71F393AFA0008AA99 /* CommonUtility.swift */; };
-		35C2C2D01F4BBCDD0045EC96 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C2CF1F4BBCDD0045EC96 /* CustomTableViewController.swift */; };
 		35C2C2DC1F4BBE8E0045EC96 /* bear.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2D21F4BBE8E0045EC96 /* bear.jpeg */; };
 		35C2C2DD1F4BBE8E0045EC96 /* camel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2D31F4BBE8E0045EC96 /* camel.jpeg */; };
 		35C2C2DE1F4BBE8E0045EC96 /* goat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2D41F4BBE8E0045EC96 /* goat.jpeg */; };
@@ -27,7 +29,6 @@
 		35C2C2E31F4BBE8E0045EC96 /* rabit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2D91F4BBE8E0045EC96 /* rabit.jpeg */; };
 		35C2C2E41F4BBE8E0045EC96 /* zebra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2DA1F4BBE8E0045EC96 /* zebra.jpeg */; };
 		35C2C2E51F4BBE8E0045EC96 /* ziraf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2DB1F4BBE8E0045EC96 /* ziraf.jpeg */; };
-		35C2C2ED1F4BCBA00045EC96 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2C2EC1F4BCBA00045EC96 /* MyTableViewCell.swift */; };
 		35CAC4341F4B296D0058F252 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAC4331F4B296D0058F252 /* MyTableViewController.swift */; };
 		35CAC4361F4B29DF0058F252 /* HappyHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAC4351F4B29DF0058F252 /* HappyHour.swift */; };
 		35DB89231F4B009B0059A6C8 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB89221F4B009B0059A6C8 /* CommonUtils.swift */; };
@@ -38,6 +39,9 @@
 
 /* Begin PBXFileReference section */
 		12E01FF484D493C12EF3083C /* Pods-Iphone RND.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iphone RND.release.xcconfig"; path = "Pods/Target Support Files/Pods-Iphone RND/Pods-Iphone RND.release.xcconfig"; sourceTree = "<group>"; };
+		3508CD161F4DFE45002C7C8E /* AnimalListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalListVC.swift; sourceTree = "<group>"; };
+		3508CD181F4DFFAD002C7C8E /* TableViewCellAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellAnimal.swift; sourceTree = "<group>"; };
+		3508CD1A1F4E09AB002C7C8E /* AnimalDetailsVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailsVc.swift; sourceTree = "<group>"; };
 		350B71FE1F467E53002A77C5 /* splash_bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash_bg.jpeg; sourceTree = "<group>"; };
 		355F80881F39385E0008AA99 /* Iphone RND.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iphone RND.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		355F808B1F39385E0008AA99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +53,6 @@
 		355F80A01F393A2E0008AA99 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		355F80A31F393A850008AA99 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		355F80A71F393AFA0008AA99 /* CommonUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonUtility.swift; path = ../CommonUtility.swift; sourceTree = "<group>"; };
-		35C2C2CF1F4BBCDD0045EC96 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		35C2C2D21F4BBE8E0045EC96 /* bear.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bear.jpeg; sourceTree = "<group>"; };
 		35C2C2D31F4BBE8E0045EC96 /* camel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camel.jpeg; sourceTree = "<group>"; };
 		35C2C2D41F4BBE8E0045EC96 /* goat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goat.jpeg; sourceTree = "<group>"; };
@@ -60,7 +63,6 @@
 		35C2C2D91F4BBE8E0045EC96 /* rabit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rabit.jpeg; sourceTree = "<group>"; };
 		35C2C2DA1F4BBE8E0045EC96 /* zebra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpeg; sourceTree = "<group>"; };
 		35C2C2DB1F4BBE8E0045EC96 /* ziraf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ziraf.jpeg; sourceTree = "<group>"; };
-		35C2C2EC1F4BCBA00045EC96 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		35CAC4331F4B296D0058F252 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		35CAC4351F4B29DF0058F252 /* HappyHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyHour.swift; sourceTree = "<group>"; };
 		35DB89221F4B009B0059A6C8 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
@@ -164,12 +166,13 @@
 		35DB89241F4B0F170059A6C8 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				35C2C2CF1F4BBCDD0045EC96 /* CustomTableViewController.swift */,
 				35E4616F1F4B5D91008DB3E4 /* DetailsViewController.swift */,
 				35DB89251F4B0F330059A6C8 /* ImageViewController.swift */,
 				35CAC4331F4B296D0058F252 /* MyTableViewController.swift */,
 				35CAC4351F4B29DF0058F252 /* HappyHour.swift */,
-				35C2C2EC1F4BCBA00045EC96 /* MyTableViewCell.swift */,
+				3508CD161F4DFE45002C7C8E /* AnimalListVC.swift */,
+				3508CD181F4DFFAD002C7C8E /* TableViewCellAnimal.swift */,
+				3508CD1A1F4E09AB002C7C8E /* AnimalDetailsVc.swift */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -326,15 +329,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CAC4361F4B29DF0058F252 /* HappyHour.swift in Sources */,
+				3508CD191F4DFFAD002C7C8E /* TableViewCellAnimal.swift in Sources */,
 				355F808E1F39385E0008AA99 /* ViewController.swift in Sources */,
 				355F80A81F393AFA0008AA99 /* CommonUtility.swift in Sources */,
 				355F808C1F39385E0008AA99 /* AppDelegate.swift in Sources */,
 				35CAC4341F4B296D0058F252 /* MyTableViewController.swift in Sources */,
-				35C2C2ED1F4BCBA00045EC96 /* MyTableViewCell.swift in Sources */,
+				3508CD1B1F4E09AB002C7C8E /* AnimalDetailsVc.swift in Sources */,
 				35DB89261F4B0F330059A6C8 /* ImageViewController.swift in Sources */,
-				35C2C2D01F4BBCDD0045EC96 /* CustomTableViewController.swift in Sources */,
 				355F80A41F393A850008AA99 /* ProgressHUD.swift in Sources */,
 				35DB89231F4B009B0059A6C8 /* CommonUtils.swift in Sources */,
+				3508CD171F4DFE45002C7C8E /* AnimalListVC.swift in Sources */,
 				355F80A11F393A2E0008AA99 /* BaseViewController.swift in Sources */,
 				35E461701F4B5D91008DB3E4 /* DetailsViewController.swift in Sources */,
 			);

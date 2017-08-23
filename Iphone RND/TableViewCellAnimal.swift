@@ -1,17 +1,21 @@
 //
-//  MyTableViewCell.swift
+//  TableViewCellAnimal.swift
 //  Iphone RND
 //
-//  Created by sibaprasad on 22/08/17.
+//  Created by sibaprasad on 23/08/17.
 //  Copyright © 2017 SP inc. All rights reserved.
 //
 
 import UIKit
 
-class MyTableViewCell: UITableViewCell {
- 
+class TableViewCellAnimal: UITableViewCell {
+
+    
     @IBOutlet var imageAnimal: UIImageView!
-    @IBOutlet var title: UILabel!
+    @IBOutlet var labelAnimalName: UILabel!
+    @IBOutlet var labelAnimalDesc: UILabel!
+    
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
