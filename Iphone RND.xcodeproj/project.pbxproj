@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35012FE21F4FE03800BB0082 /* MyCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35012FE11F4FE03800BB0082 /* MyCollectionVC.swift */; };
 		3508CD171F4DFE45002C7C8E /* AnimalListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508CD161F4DFE45002C7C8E /* AnimalListVC.swift */; };
 		3508CD191F4DFFAD002C7C8E /* TableViewCellAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508CD181F4DFFAD002C7C8E /* TableViewCellAnimal.swift */; };
 		3508CD1B1F4E09AB002C7C8E /* AnimalDetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3508CD1A1F4E09AB002C7C8E /* AnimalDetailsVc.swift */; };
@@ -19,6 +20,16 @@
 		355F80A11F393A2E0008AA99 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A01F393A2E0008AA99 /* BaseViewController.swift */; };
 		355F80A41F393A850008AA99 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A31F393A850008AA99 /* ProgressHUD.swift */; };
 		355F80A81F393AFA0008AA99 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355F80A71F393AFA0008AA99 /* CommonUtility.swift */; };
+		3563AAEA1F4F67DF00BFC205 /* cupcake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE11F4F67DF00BFC205 /* cupcake.jpg */; };
+		3563AAEB1F4F67DF00BFC205 /* donunt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE21F4F67DF00BFC205 /* donunt.jpeg */; };
+		3563AAEC1F4F67DF00BFC205 /* eclair.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE31F4F67DF00BFC205 /* eclair.jpeg */; };
+		3563AAED1F4F67DF00BFC205 /* froyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE41F4F67DF00BFC205 /* froyo.jpg */; };
+		3563AAEE1F4F67DF00BFC205 /* gingerbread.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE51F4F67DF00BFC205 /* gingerbread.jpg */; };
+		3563AAEF1F4F67DF00BFC205 /* honeycomb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE61F4F67DF00BFC205 /* honeycomb.png */; };
+		3563AAF01F4F67DF00BFC205 /* icream_sandwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE71F4F67DF00BFC205 /* icream_sandwitch.png */; };
+		3563AAF11F4F67DF00BFC205 /* jellybean.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE81F4F67DF00BFC205 /* jellybean.jpeg */; };
+		3563AAF21F4F67DF00BFC205 /* kitkat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3563AAE91F4F67DF00BFC205 /* kitkat.jpg */; };
+		3563AAF41F4F72BA00BFC205 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3563AAF31F4F72BA00BFC205 /* CollectionCell.swift */; };
 		35C2C2DC1F4BBE8E0045EC96 /* bear.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2D21F4BBE8E0045EC96 /* bear.jpeg */; };
 		35C2C2DD1F4BBE8E0045EC96 /* camel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2D31F4BBE8E0045EC96 /* camel.jpeg */; };
 		35C2C2DE1F4BBE8E0045EC96 /* goat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2D41F4BBE8E0045EC96 /* goat.jpeg */; };
@@ -31,6 +42,8 @@
 		35C2C2E51F4BBE8E0045EC96 /* ziraf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2DB1F4BBE8E0045EC96 /* ziraf.jpeg */; };
 		35CAC4341F4B296D0058F252 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAC4331F4B296D0058F252 /* MyTableViewController.swift */; };
 		35CAC4361F4B29DF0058F252 /* HappyHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAC4351F4B29DF0058F252 /* HappyHour.swift */; };
+		35D5BBF81F505379005D52AB /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D5BBF71F505379005D52AB /* ImageCollectionViewCell.swift */; };
+		35D5BBFA1F5053F1005D52AB /* MultiCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D5BBF91F5053F1005D52AB /* MultiCollectionVC.swift */; };
 		35DB89231F4B009B0059A6C8 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB89221F4B009B0059A6C8 /* CommonUtils.swift */; };
 		35DB89261F4B0F330059A6C8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DB89251F4B0F330059A6C8 /* ImageViewController.swift */; };
 		35E461701F4B5D91008DB3E4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E4616F1F4B5D91008DB3E4 /* DetailsViewController.swift */; };
@@ -39,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		12E01FF484D493C12EF3083C /* Pods-Iphone RND.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iphone RND.release.xcconfig"; path = "Pods/Target Support Files/Pods-Iphone RND/Pods-Iphone RND.release.xcconfig"; sourceTree = "<group>"; };
+		35012FE11F4FE03800BB0082 /* MyCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionVC.swift; sourceTree = "<group>"; };
 		3508CD161F4DFE45002C7C8E /* AnimalListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalListVC.swift; sourceTree = "<group>"; };
 		3508CD181F4DFFAD002C7C8E /* TableViewCellAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellAnimal.swift; sourceTree = "<group>"; };
 		3508CD1A1F4E09AB002C7C8E /* AnimalDetailsVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailsVc.swift; sourceTree = "<group>"; };
@@ -53,6 +67,16 @@
 		355F80A01F393A2E0008AA99 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		355F80A31F393A850008AA99 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		355F80A71F393AFA0008AA99 /* CommonUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonUtility.swift; path = ../CommonUtility.swift; sourceTree = "<group>"; };
+		3563AAE11F4F67DF00BFC205 /* cupcake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cupcake.jpg; sourceTree = "<group>"; };
+		3563AAE21F4F67DF00BFC205 /* donunt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donunt.jpeg; sourceTree = "<group>"; };
+		3563AAE31F4F67DF00BFC205 /* eclair.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eclair.jpeg; sourceTree = "<group>"; };
+		3563AAE41F4F67DF00BFC205 /* froyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = froyo.jpg; sourceTree = "<group>"; };
+		3563AAE51F4F67DF00BFC205 /* gingerbread.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gingerbread.jpg; sourceTree = "<group>"; };
+		3563AAE61F4F67DF00BFC205 /* honeycomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honeycomb.png; sourceTree = "<group>"; };
+		3563AAE71F4F67DF00BFC205 /* icream_sandwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icream_sandwitch.png; sourceTree = "<group>"; };
+		3563AAE81F4F67DF00BFC205 /* jellybean.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jellybean.jpeg; sourceTree = "<group>"; };
+		3563AAE91F4F67DF00BFC205 /* kitkat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitkat.jpg; sourceTree = "<group>"; };
+		3563AAF31F4F72BA00BFC205 /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		35C2C2D21F4BBE8E0045EC96 /* bear.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bear.jpeg; sourceTree = "<group>"; };
 		35C2C2D31F4BBE8E0045EC96 /* camel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camel.jpeg; sourceTree = "<group>"; };
 		35C2C2D41F4BBE8E0045EC96 /* goat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goat.jpeg; sourceTree = "<group>"; };
@@ -65,6 +89,8 @@
 		35C2C2DB1F4BBE8E0045EC96 /* ziraf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ziraf.jpeg; sourceTree = "<group>"; };
 		35CAC4331F4B296D0058F252 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		35CAC4351F4B29DF0058F252 /* HappyHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyHour.swift; sourceTree = "<group>"; };
+		35D5BBF71F505379005D52AB /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		35D5BBF91F5053F1005D52AB /* MultiCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiCollectionVC.swift; sourceTree = "<group>"; };
 		35DB89221F4B009B0059A6C8 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		35DB89251F4B0F330059A6C8 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		35E4616F1F4B5D91008DB3E4 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
@@ -138,9 +164,27 @@
 			name = utility;
 			sourceTree = "<group>";
 		};
+		3563AADE1F4F62D500BFC205 /* collection */ = {
+			isa = PBXGroup;
+			children = (
+				3563AAF31F4F72BA00BFC205 /* CollectionCell.swift */,
+				35012FE11F4FE03800BB0082 /* MyCollectionVC.swift */,
+			);
+			name = collection;
+			sourceTree = "<group>";
+		};
 		35C2C2D11F4BBE6A0045EC96 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3563AAE11F4F67DF00BFC205 /* cupcake.jpg */,
+				3563AAE21F4F67DF00BFC205 /* donunt.jpeg */,
+				3563AAE31F4F67DF00BFC205 /* eclair.jpeg */,
+				3563AAE41F4F67DF00BFC205 /* froyo.jpg */,
+				3563AAE51F4F67DF00BFC205 /* gingerbread.jpg */,
+				3563AAE61F4F67DF00BFC205 /* honeycomb.png */,
+				3563AAE71F4F67DF00BFC205 /* icream_sandwitch.png */,
+				3563AAE81F4F67DF00BFC205 /* jellybean.jpeg */,
+				3563AAE91F4F67DF00BFC205 /* kitkat.jpg */,
 				35C2C2D21F4BBE8E0045EC96 /* bear.jpeg */,
 				35C2C2D31F4BBE8E0045EC96 /* camel.jpeg */,
 				35C2C2D41F4BBE8E0045EC96 /* goat.jpeg */,
@@ -155,6 +199,15 @@
 			name = images;
 			sourceTree = "<group>";
 		};
+		35D5BBF61F5048EB005D52AB /* multiCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				35D5BBF71F505379005D52AB /* ImageCollectionViewCell.swift */,
+				35D5BBF91F5053F1005D52AB /* MultiCollectionVC.swift */,
+			);
+			name = multiCollectionView;
+			sourceTree = "<group>";
+		};
 		35DB89211F4B00660059A6C8 /* utility */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +219,8 @@
 		35DB89241F4B0F170059A6C8 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				35D5BBF61F5048EB005D52AB /* multiCollectionView */,
+				3563AADE1F4F62D500BFC205 /* collection */,
 				35E4616F1F4B5D91008DB3E4 /* DetailsViewController.swift */,
 				35DB89251F4B0F330059A6C8 /* ImageViewController.swift */,
 				35CAC4331F4B296D0058F252 /* MyTableViewController.swift */,
@@ -256,19 +311,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3563AAF21F4F67DF00BFC205 /* kitkat.jpg in Resources */,
 				35C2C2E11F4BBE8E0045EC96 /* panda.jpg in Resources */,
+				3563AAF01F4F67DF00BFC205 /* icream_sandwitch.png in Resources */,
 				35C2C2DE1F4BBE8E0045EC96 /* goat.jpeg in Resources */,
 				35C2C2DF1F4BBE8E0045EC96 /* leopard.jpg in Resources */,
 				355F80961F39385E0008AA99 /* LaunchScreen.storyboard in Resources */,
+				3563AAEA1F4F67DF00BFC205 /* cupcake.jpg in Resources */,
+				3563AAF11F4F67DF00BFC205 /* jellybean.jpeg in Resources */,
+				3563AAED1F4F67DF00BFC205 /* froyo.jpg in Resources */,
 				350B71FF1F467E53002A77C5 /* splash_bg.jpeg in Resources */,
 				35C2C2E01F4BBE8E0045EC96 /* lion.jpg in Resources */,
+				3563AAEF1F4F67DF00BFC205 /* honeycomb.png in Resources */,
+				3563AAEB1F4F67DF00BFC205 /* donunt.jpeg in Resources */,
 				35C2C2E51F4BBE8E0045EC96 /* ziraf.jpeg in Resources */,
+				3563AAEE1F4F67DF00BFC205 /* gingerbread.jpg in Resources */,
 				35C2C2E41F4BBE8E0045EC96 /* zebra.jpeg in Resources */,
 				355F80931F39385E0008AA99 /* Assets.xcassets in Resources */,
 				35C2C2DC1F4BBE8E0045EC96 /* bear.jpeg in Resources */,
 				35C2C2E31F4BBE8E0045EC96 /* rabit.jpeg in Resources */,
 				35C2C2E21F4BBE8E0045EC96 /* puppy.jpeg in Resources */,
 				35C2C2DD1F4BBE8E0045EC96 /* camel.jpeg in Resources */,
+				3563AAEC1F4F67DF00BFC205 /* eclair.jpeg in Resources */,
 				355F80911F39385E0008AA99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +394,7 @@
 			files = (
 				35CAC4361F4B29DF0058F252 /* HappyHour.swift in Sources */,
 				3508CD191F4DFFAD002C7C8E /* TableViewCellAnimal.swift in Sources */,
+				35D5BBF81F505379005D52AB /* ImageCollectionViewCell.swift in Sources */,
 				355F808E1F39385E0008AA99 /* ViewController.swift in Sources */,
 				355F80A81F393AFA0008AA99 /* CommonUtility.swift in Sources */,
 				355F808C1F39385E0008AA99 /* AppDelegate.swift in Sources */,
@@ -337,10 +402,13 @@
 				3508CD1B1F4E09AB002C7C8E /* AnimalDetailsVc.swift in Sources */,
 				35DB89261F4B0F330059A6C8 /* ImageViewController.swift in Sources */,
 				355F80A41F393A850008AA99 /* ProgressHUD.swift in Sources */,
+				35012FE21F4FE03800BB0082 /* MyCollectionVC.swift in Sources */,
 				35DB89231F4B009B0059A6C8 /* CommonUtils.swift in Sources */,
+				35D5BBFA1F5053F1005D52AB /* MultiCollectionVC.swift in Sources */,
 				3508CD171F4DFE45002C7C8E /* AnimalListVC.swift in Sources */,
 				355F80A11F393A2E0008AA99 /* BaseViewController.swift in Sources */,
 				35E461701F4B5D91008DB3E4 /* DetailsViewController.swift in Sources */,
+				3563AAF41F4F72BA00BFC205 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
