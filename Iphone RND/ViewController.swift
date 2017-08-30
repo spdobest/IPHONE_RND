@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var btnLogin: UIButton!
+    @IBOutlet var btnRegister: UIButton!
+    @IBOutlet var btnList: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        btnLogin.layer.cornerRadius = 10
+        btnLogin.clipsToBounds = true
+        
     }
 
     override func didReceiveMemoryWarning() {

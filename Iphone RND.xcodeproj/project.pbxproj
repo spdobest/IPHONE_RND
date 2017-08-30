@@ -40,6 +40,9 @@
 		35C2C2E31F4BBE8E0045EC96 /* rabit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2D91F4BBE8E0045EC96 /* rabit.jpeg */; };
 		35C2C2E41F4BBE8E0045EC96 /* zebra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2DA1F4BBE8E0045EC96 /* zebra.jpeg */; };
 		35C2C2E51F4BBE8E0045EC96 /* ziraf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35C2C2DB1F4BBE8E0045EC96 /* ziraf.jpeg */; };
+		35C443671F5722F90067BC6C /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C443661F5722F90067BC6C /* NetworkViewController.swift */; };
+		35C443691F57274C0067BC6C /* NetworkTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C443681F57274C0067BC6C /* NetworkTableCell.swift */; };
+		35C4436B1F5738A20067BC6C /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4436A1F5738A20067BC6C /* LoginVc.swift */; };
 		35CAC4341F4B296D0058F252 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAC4331F4B296D0058F252 /* MyTableViewController.swift */; };
 		35CAC4361F4B29DF0058F252 /* HappyHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CAC4351F4B29DF0058F252 /* HappyHour.swift */; };
 		35D5BBF81F505379005D52AB /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D5BBF71F505379005D52AB /* ImageCollectionViewCell.swift */; };
@@ -87,6 +90,9 @@
 		35C2C2D91F4BBE8E0045EC96 /* rabit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rabit.jpeg; sourceTree = "<group>"; };
 		35C2C2DA1F4BBE8E0045EC96 /* zebra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpeg; sourceTree = "<group>"; };
 		35C2C2DB1F4BBE8E0045EC96 /* ziraf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ziraf.jpeg; sourceTree = "<group>"; };
+		35C443661F5722F90067BC6C /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		35C443681F57274C0067BC6C /* NetworkTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTableCell.swift; sourceTree = "<group>"; };
+		35C4436A1F5738A20067BC6C /* LoginVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 		35CAC4331F4B296D0058F252 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		35CAC4351F4B29DF0058F252 /* HappyHour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappyHour.swift; sourceTree = "<group>"; };
 		35D5BBF71F505379005D52AB /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -199,6 +205,15 @@
 			name = images;
 			sourceTree = "<group>";
 		};
+		35C443651F5722D90067BC6C /* network */ = {
+			isa = PBXGroup;
+			children = (
+				35C443661F5722F90067BC6C /* NetworkViewController.swift */,
+				35C443681F57274C0067BC6C /* NetworkTableCell.swift */,
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
 		35D5BBF61F5048EB005D52AB /* multiCollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +234,7 @@
 		35DB89241F4B0F170059A6C8 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				35C443651F5722D90067BC6C /* network */,
 				35D5BBF61F5048EB005D52AB /* multiCollectionView */,
 				3563AADE1F4F62D500BFC205 /* collection */,
 				35E4616F1F4B5D91008DB3E4 /* DetailsViewController.swift */,
@@ -228,6 +244,7 @@
 				3508CD161F4DFE45002C7C8E /* AnimalListVC.swift */,
 				3508CD181F4DFFAD002C7C8E /* TableViewCellAnimal.swift */,
 				3508CD1A1F4E09AB002C7C8E /* AnimalDetailsVc.swift */,
+				35C4436A1F5738A20067BC6C /* LoginVc.swift */,
 			);
 			name = ui;
 			sourceTree = "<group>";
@@ -399,11 +416,14 @@
 				355F80A81F393AFA0008AA99 /* CommonUtility.swift in Sources */,
 				355F808C1F39385E0008AA99 /* AppDelegate.swift in Sources */,
 				35CAC4341F4B296D0058F252 /* MyTableViewController.swift in Sources */,
+				35C443671F5722F90067BC6C /* NetworkViewController.swift in Sources */,
 				3508CD1B1F4E09AB002C7C8E /* AnimalDetailsVc.swift in Sources */,
 				35DB89261F4B0F330059A6C8 /* ImageViewController.swift in Sources */,
 				355F80A41F393A850008AA99 /* ProgressHUD.swift in Sources */,
+				35C443691F57274C0067BC6C /* NetworkTableCell.swift in Sources */,
 				35012FE21F4FE03800BB0082 /* MyCollectionVC.swift in Sources */,
 				35DB89231F4B009B0059A6C8 /* CommonUtils.swift in Sources */,
+				35C4436B1F5738A20067BC6C /* LoginVc.swift in Sources */,
 				35D5BBFA1F5053F1005D52AB /* MultiCollectionVC.swift in Sources */,
 				3508CD171F4DFE45002C7C8E /* AnimalListVC.swift in Sources */,
 				355F80A11F393A2E0008AA99 /* BaseViewController.swift in Sources */,

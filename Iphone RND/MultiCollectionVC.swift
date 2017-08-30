@@ -8,7 +8,9 @@
 
 import UIKit
 
-class MultiCollectionVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource{
+class MultiCollectionVC: UIViewController {
+     
+
 
 
     override func viewDidLoad() {
